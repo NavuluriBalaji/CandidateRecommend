@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balaji Solutions - Job Openings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Balaji Solutions Logo" class="logo">
+        <h1>Balaji Solutions</h1>
+    </header>
+    <main>
+        <!-- Section to display current job openings -->
+        <section id="job-listings">
+            <h2>Current Job Openings</h2>
+            <div id="job-list"></div> <!-- Job listings will be populated by script.js -->
+        </section>
+
+        <!-- Section to add new job opening -->
+        <section id="add-job">
+            <h2>Add New Job Opening</h2>
+            <form id="job-form">
+                <label for="job-description">Job Description:</label>
+                <textarea id="job-description" required></textarea>
+
+                <label for="salary">Salary:</label>
+                <input type="text" id="salary" required>
+
+                <label for="expectations">Expectations from Applicants:</label>
+                <textarea id="expectations" required></textarea>
+
+                <label for="skills">Required Skills:</label>
+                <textarea id="skills" required></textarea>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" required>
+
+                <button type="submit">Add Job Opening</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
